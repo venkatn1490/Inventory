@@ -1,0 +1,1 @@
+<div class="comingsoon"><h3 class="email-suc">${message}</h3></div>

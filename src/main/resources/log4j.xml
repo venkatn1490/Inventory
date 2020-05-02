@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- Appenders -->
+	<appender name="medrep_logger" class="org.apache.log4j.RollingFileAppender">
+		 <param name="append" value="false"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="2"/>
+        <param name="file" value="/home/medrep/data/static/logs/medrep.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %c - %m%n"/>
+             <!-- <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/> -->
+        </layout>
+	</appender>
+
+	<appender name="ios_notifications" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="true"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="5"/>
+        <param name="file" value="/home/medrep/data/static/logs/ios_notifications.html"/>
+        <layout class="org.apache.log4j.HTMLLayout">
+            <!-- <param name="ConversionPattern" value="%d{HH:mm:ss,SSS} %-5p %c - %m%n"/> -->
+             <!-- <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/> -->
+        </layout>
+    </appender>
+
+    <appender name="android_notifications" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="true"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="5"/>
+        <param name="file" value="/home/medrep/data/static/logs/android_notifications.html"/>
+        <layout class="org.apache.log4j.HTMLLayout">
+            <!-- <param name="ConversionPattern" value="%d{HH:mm:ss,SSS} %-5p %c - %m%n"/> -->
+             <!-- <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/> -->
+        </layout>
+    </appender>
+
+    <logger name="com.medrep.app.util.AndroidPushNotification" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="android_notifications" />
+	</logger>
+
+
+	<appender name="appointment_reminders" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="false"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="2"/>
+        <param name="file" value="/home/medrep/data/static/logs/appointment_reminder.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %c - %m%n"/>
+             <!-- <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/> -->
+        </layout>
+    </appender>
+
+	<!-- <appender name="push_notifications" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="false"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="2"/>
+        <param name="file" value="/home/medrep/data/static/logs/push_notifications.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %c - %m%n"/>
+             <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/>
+        </layout>
+    </appender>
+
+	<logger name="com.medrep.app.engine.AppointmentManager" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="push_notifications" />
+	</logger> -->
+
+
+
+
+	<appender name="notification_reminders" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="false"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="2"/>
+        <param name="file" value="/home/medrep/data/static/logs/notification_reminder.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %c - %m%n"/>
+        </layout>
+    </appender>
+
+
+
+	<appender name="user_validator" class="org.apache.log4j.RollingFileAppender">
+        <param name="append" value="false"/>
+        <param name="maxFileSize" value="10MB"/>
+        <param name="maxBackupIndex" value="2"/>
+        <param name="file" value="/home/medrep/data/static/logs/user_validator.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %c - %m%n"/>
+             <!-- <param name="ConversionPattern" value="%-5p %c{1} - %m%n"/> -->
+        </layout>
+    </appender>
+
+	<logger name="com.medrep.app.engine.UserValidator" additivity="false">
+		<level value="DEBUG" />
+		<appender-ref ref="user_validator" />
+	</logger>
+
+	<logger name="com.medrep.app.engine.NotificationPublisher" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="notification_reminders" />
+	</logger>
+
+	<logger name="com.medrep.app.engine.AppointmentManager" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="appointment_reminders" />
+	</logger>
+<logger name="com.medrep.app.util.IosPushNotification" additivity="false">
+		<level value="INFO" />
+		<appender-ref ref="ios_notifications" />
+	</logger>
+
+
+
+	<!-- Application Loggers -->
+	<logger name="com.medrep.app">
+		<level value="info" />
+	</logger>
+
+	<!-- 3rdparty Loggers -->
+	<logger name="org.springframework.core">
+		<level value="info" />
+	</logger>
+
+	<logger name="org.springframework.beans">
+		<level value="info" />
+	</logger>
+
+	<logger name="org.springframework.context">
+		<level value="info" />
+	</logger>
+
+	<logger name="org.springframework.web">
+		<level value="info" />
+	</logger>
+
+	<!-- Root Logger -->
+	<root>
+		<priority value="warn" />
+		<appender-ref ref="medrep_logger" />
+	</root>
+
+</log4j:configuration>

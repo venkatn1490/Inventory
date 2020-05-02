@@ -1,0 +1,10 @@
+ Dear ${ContactName},
+ 
+ Dr. ${doctorName} has requested a sample while registering for your Treatment Campaign - $(campaginName).
+ 
+ Kindly reach out to him on ${MobileNumber} or ${EmailAddress}
+ 
+ Regards, 
+ MedRep Team
+
+

@@ -1,0 +1,88 @@
+<!-- Inliner Build Version 4380b7741bb759d6cb997545f3add21ad48f010b -->
+<!DOCTYPE html>
+<html style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
+<head>
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>${TITLE}</title>
+</head>
+<body bgcolor="#f6f6f6" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; -webkit-font-smoothing: antialiased; height: 100%; -webkit-text-size-adjust: none; width: 100% !important; margin: 0; padding: 0;">
+
+<!-- body -->
+<table class="body-wrap" bgcolor="#f6f6f6" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; width: 100%; margin: 0; padding: 20px;">
+<tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
+<td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;"></td>
+    <td class="container" bgcolor="#FFFFFF" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; clear: both !important; display: block !important; max-width: 600px !important; Margin: 0 auto; padding: 20px; border: 1px solid #f0f0f0;">
+
+      <!-- content -->
+      <div class="content" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; display: block; max-width: 600px; margin: 0 auto; padding: 0;">
+      <table style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; width: 100%; margin: 0; padding: 0;"><tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
+<td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
+            <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">Dear ${NAME},</p>
+            <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">Thank you for registering with MedRep. It takes us immense pleasure to have you on-board.</p>
+			<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">The MedRep Mobile App has a plethora of features that assist your Sales and Marketing Teams in excelling at what they do.</p>
+			<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">A few features that we have ingrained in our 1st release of MedRep are:</p>
+			<ul type="circle">
+            <li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Send New Product Notifications to the Registered Physicians Mobile</li>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Receive Product Feedback from the Physician about each product</li>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Send out the Surveys directly to Physicians Mobile</li>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Receive and Analyse Survey Results from your Mobile Device</li>
+			</ul>
+			
+			<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">Also note, that there is a feature called "Activity Score" which helps you:</p>
+			<ul type="circle">
+            <li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Assess Physician's Inclination Level towards your Brand by tracking their Activity Score</li>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">MedRep's algorithm adds points to the Physician's Activity Score based on</li>
+			<ul>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">The Notifications View by the Physician</li>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Requests for Medical Representative Feedbacks</li>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Product Feedbacks sent</li>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Surveys Completely answered</li>
+			<li style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding-left: 20px;">Drugs Prescribed (Upcoming Feature)</li>
+			</ul>
+			
+			</ul>
+			<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">In case of any help, please feel free to reach out to us through, <a href="mailto:info@erfolglifesciences.com">info@erfolglifesciences.com</a> (or) <a href="mailto:${INFOMAILID}">${INFOMAILID}</a></p>
+			
+			<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">In case you require a full-fledged demo of the Mobile Application, please contact us on the above mentioned email addresses and we will send out our Technical Representative as soon as humanly possible!</p>
+			<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">Thank you for your support, and again, we are really happy to have you on-boarded to the MedRep Mobile Application. Start using the Mobile App to propel your Sales to new heights.</p>
+			<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">Regards,<br/>MedRep Team</p>
+            <!-- button -->
+            <table class="btn-primary" cellpadding="0" cellspacing="0" border="0" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; width: auto !important; Margin: 0 0 10px; padding: 0;"><tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
+<td style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 12px; line-height: 1.6em; border-radius: 25px; text-align: center; vertical-align: top; background: #348eda; margin: 0; padding: 0;" align="center" bgcolor="#348eda" valign="top"></td>
+              </tr></table>
+          </td>
+        </tr></table>
+</div>
+      <!-- /content -->
+      
+    </td>
+    <td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;"></td>
+  </tr>
+</table>
+<!-- /body --><!-- footer -->
+<table class="footer-wrap" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; clear: both !important; width: 100%; margin: 0; padding: 0;">
+<tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
+<td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;"></td>
+    <td class="container" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; clear: both !important; display: block !important; max-width: 600px !important; margin: 0 auto; padding: 0;">
+      
+      <!-- content -->
+      <div class="content" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; display: block; bgcolor=#f6f6f6; max-width: 600px; margin: 0 auto; padding: 0;">
+        <table style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; width: 100%; margin: 0; padding: 0;"><tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
+<td align="left" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
+			  
+              <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 9px; line-height: 1.6em; color: #666666; font-weight: normal; margin: 0 0 10px; padding: 0;"><b>Disclaimer:</b> MedRep is a Software Application incepted and developed by Erfolg Life Sciences Pvt. Ltd. Erfolg Life Sciences does not edit or create any content provided to us by the Pharmaceutical Companies, Medical Device Manufacturing Companies and / or Bio Technology Companies. Our only job is to present information in the most suitable format for a Mobile Device. Erfolg Life Sciences accepts no liability for the content of the Marketing Material sent to us by the above mentioned companies, or for the consequences of any actions taken on the basis of the information provided.
+
+Furthermore, Erfolg Life Sciences is not in the business of producing information. All information shared to the users through our Platform in the form of News, Educative, Informational, Marketing, or Medical is not created by Erfolg Life Sciences, but is has its respective sources, unless clearly stated in writing by Erfolg Life Sciences Pvt. Ltd.
+              </p>
+            </td>
+          </tr></table>
+</div>
+      <!-- /content -->
+      
+    </td>
+    <td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;"></td>
+  </tr></table>
+<!-- /footer -->
+</body>
+</html>
